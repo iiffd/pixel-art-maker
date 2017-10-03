@@ -3,7 +3,6 @@
 function makeGrid() {
   // Get form input
   let height, width, h_num, w_num;
-  let color = $('#colorPicker').val();
 
   height = $('#input_height');
   width = $('#input_width');
@@ -30,6 +29,7 @@ function makeGrid() {
 
   // adds click event to change color
   $('.cell').click(function() {
+    let color = $('#colorPicker').val();
     $(this).css('background-color', color);
   })
 
