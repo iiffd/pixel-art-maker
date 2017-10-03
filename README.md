@@ -3,14 +3,12 @@
 ## Table of Contents
 
 * [Instructions](#instructions)
-* [Contributing](#contributing)
+* [Description](#description)
 
 ## Instructions
 
-To get started, open `designs.js` and start building out the app's functionality.
+Select desired dimensions of image and press submit to generate pixel map. Choose color from color picker then click to fill in pixel map.
 
-For specific, detailed instructions, look at the project instructions in the [Udacity Classroom](https://classroom.udacity.com/me).
+## Description
 
-## Contributing
-
-This repository is the starter code for _all_ Udacity students. Therefore, we most likely will not accept pull requests.
+Uses jQuery for adding, removing, and changing properties of dom elements.
