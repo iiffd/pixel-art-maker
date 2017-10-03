@@ -1,4 +1,4 @@
-// When size is submitted by the user, call makeGrid()
+// When size is submitted by the user, call makeGrid
 
 function makeGrid() {
   // Get form input
