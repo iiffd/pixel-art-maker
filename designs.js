@@ -2,19 +2,13 @@
 
 function makeGrid() {
   // Get form input
-  let height, width, h_num, w_num;
-
-  height = $('#input_height');
-  width = $('#input_width');
-  h_num = height.val();
-  w_num = width.val();
-
-  // rewrite values
-  height.val(h_num);
-  width.val(w_num);
+  const height = $('#input_height');
+  const width = $('#input_width');
+  const h_num = height.val();
+  const w_num = width.val();
 
   // clears grid
-  let pixel_canvas = $('#pixel_canvas');
+  const pixel_canvas = $('#pixel_canvas');
   pixel_canvas.children().remove();
 
   // create grid
